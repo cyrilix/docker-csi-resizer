@@ -1,6 +1,6 @@
 FROM --platform=$BUILDPLATFORM golang:1.15-buster AS src
 
-ARG VERSION=v0.5.1
+ARG VERSION=v1.0.0
 ARG BUILDPLATFORM
 
 RUN git clone https://github.com/kubernetes-csi/external-resizer.git  /go/src/external-resizer
